@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapNews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SnapNews</h1>
+        <p>News in a Snap, Anytime, Anywhere</p>
+        <div class="buttons">
+            <button onclick="fetchNews('technology')">Technology</button>
+            <button onclick="fetchNews('politics')">Politics</button>
+            <button onclick="fetchNews('finance')">Finance</button>
+        </div>
+        <div id="news-articles"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
